@@ -3,10 +3,10 @@
 
   const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  /* ---------- 1. Footer year ---------- */
+  /*footer year?? */
   document.getElementById('year').textContent = new Date().getFullYear();
 
-  /* ---------- 2. Header scroll state + progress bar ---------- */
+  /*header scroll stae and progress bar */
   const header = document.getElementById('siteHeader');
   const progress = document.getElementById('scrollProgress');
 
@@ -31,7 +31,7 @@
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 
-  /* ---------- 3. Mobile nav toggle ---------- */
+  /* mobile nav toggle */
   const navToggle = document.getElementById('navToggle');
   const navLinks = document.getElementById('navLinks');
 
@@ -49,7 +49,7 @@
     });
   });
 
-  /* ---------- 4. Reveal on scroll ---------- */
+  /* reveal on scroll */
   const revealEls = document.querySelectorAll('.reveal');
   if ('IntersectionObserver' in window && !reduceMotion) {
     const io = new IntersectionObserver((entries) => {

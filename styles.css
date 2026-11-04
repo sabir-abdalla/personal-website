@@ -45,7 +45,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 
 .container { width:min(1160px, 92vw); margin-inline:auto; }
 
-/* ================= SCROLL PROGRESS ================= */
+
 .scroll-progress {
   position: fixed; top:0; left:0;
   height:3px; width:0%;
@@ -54,7 +54,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
   box-shadow: 0 0 12px rgba(212,212,220,.55);
 }
 
-/* ================= HEADER / NAV ================= */
+
 .site-header {
   position: fixed; top:0; left:0; right:0;
   z-index: 900;
@@ -112,7 +112,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 .nav-toggle.open span:nth-child(2){ opacity:0; }
 .nav-toggle.open span:nth-child(3){ transform: translateY(-7px) rotate(-45deg); }
 
-/* ================= HERO ================= */
+
 .hero {
   position:relative;
   min-height:100svh;
@@ -256,7 +256,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 }
 .reveal.in { opacity:1; transform:none; }
 
-/* ================= ABOUT ================= */
+/* about styling */
 .about-grid {
   display:grid;
   grid-template-columns: 320px 1fr;
@@ -305,7 +305,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 .panel p:last-child { margin-bottom:0; }
 .panel strong { color: var(--text); font-weight:600; }
 
-/* Timeline */
+/* timeline */
 .timeline { position:relative; padding-left: 1.9rem; }
 .timeline::before {
   content:''; position:absolute; left:7px; top:6px; bottom:6px;
@@ -326,7 +326,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 .tl-body h4 { font-size:1.05rem; margin:.3rem 0 .15rem; }
 .tl-body p { color: var(--muted); font-size:.9rem; }
 
-/* Chips */
+/* chips */
 .chips { display:flex; flex-wrap:wrap; gap:.55rem; }
 .chips-center { justify-content:center; }
 .chip {
@@ -344,7 +344,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
   color:#fff;
 }
 
-/* ================= PROJECTS ================= */
+/* projects */
 .projects-grid {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -417,7 +417,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 .card-link:hover { color: var(--silver); gap:.75rem; }
 .card-link:hover i { transform: translate(2px,-2px); }
 
-/* ================= TECH STACK ================= */
+/* tech stack */
 .tech-grid {
   display:grid;
   grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
@@ -464,7 +464,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 }
 .tech-level.proficient { color: var(--silver); }
 
-/* ================= CONTACT ================= */
+/* contact styling */
 .contact-card {
   max-width: 620px;
   margin-inline: auto;
@@ -493,7 +493,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
   box-shadow: 0 12px 26px -12px rgba(212,212,220,.7);
 }
 
-/* ================= FOOTER ================= */
+/* footer dstyyling */
 .footer {
   border-top:1px solid var(--line);
   padding: 2rem 0;
@@ -505,7 +505,7 @@ button { font-family:inherit; cursor:pointer; border:none; background:none; colo
 }
 .footer p { color: var(--muted); font-size:.86rem; }
 
-/* ================= RESPONSIVE ================= */
+/* responsive  */
 @media (max-width: 900px) {
   .about-grid { grid-template-columns: 1fr; }
   .about-card { position:static; }
